@@ -1,42 +1,641 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+<head>
+
+<meta charset="utf-8">
+<title>Moncerts - Indonesian Movie and Event Calendar</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="../common/css/app.min.css">
+<script src="../common/js/jQuery2.0.2.min.js"></script>
+<script src="../common/js/jquery.touchwipe.min.js"></script>
+<script src="../common/js/main.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="app-wrapper">
+
+<nav class="main-menu">
+<a href="#jan">Januari</a>
+<a href="#feb">Februari</a>
+<a href="#mar">Maret</a>
+<a href="#apr">April</a>
+<a href="#mei">Mei</a>
+<a href="#jun">Juni</a>
+<a href="#jul">Juli</a>
+<a href="#agu">Agustus</a>
+<a href="#sep">September</a>
+<a href="#okt">Oktober</a>
+<a href="#nov">November</a>
+<a href="#des">Desember</a>
+</nav><!--#main-menu-->
+
+<header>
+<div class="main-menu-button main-menu-button-left"><a class="menu">&nbsp;</a></div>
+<div class="main-menu-button main-menu-button-right"><a class="gear">&nbsp;</a></div>
+<h1>2013</h1>
+<a name="top"></a>
+</header>
+
+<div class="app-content">
+<div class="list-view-header"><a name="jan">Januari</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/WEEZER-WEB-BANNER.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/01_08_Weezer.html" class="content">
+        	<h2>Weezer Live In Jakarta</h2>
+        	8th - Lapangan D Senayan, Jakarta
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
             </div>
-        </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/struck by lightning.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/01_11_StruckByLightning.html" class="content">
+        	<h2>Struck By Lightning</h2>
+        	11st - Chris Colfer, Ashley Rickards
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/zero dark thirty.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/01_11_ZeroDarkThirty.html" class="content">
+       	<h2>Zero Dark Thirty</h2>
+        	11st - Jessica Chastain, Joel Edgerton, Chris Pratt
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="feb">Februari</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/warm bodies.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/02_01_WarmBodies.html" class="content">
+        	<h2>Warm Bodies</h2>
+        	1st - Nicholas Hoult, Teressa Palmer
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/escape from planet earth.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/02_15_EscapeFromPlanetEarth.html" class="content">
+        	<h2>Escape From Planet Earth</h2>
+        	15th - Brendan Fraser, Jessica Alba
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/SR01.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/02_23_StoneRoses.html" class="content">
+       	<h2>The Stone Roses Live In Jakarta</h2>
+        	23rd - Lapangan D Senayan, Jakarta
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="mar">Maret</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/jack the giant slayer.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/03_01_JackTheGiantSlayer.html" class="content">
+        	<h2>Jack The Giant Slayer</h2>
+        	1st - Nicholas Hoult, Ewan McGregory
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Oz the great and powerful.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/03_08_OzTheGreatAndPowerful.html" class="content">
+        	<h2>Oz The Great and Powerful</h2>
+        	8th - Rachel Weisz, Mila Kunis, James Franco
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/MUBANKJKT2013_2.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/03_09_MusicBank.html" class="content">
+       	<h2>Music Bank Live In Jakarta</h2>
+        	9th - Stadion Utama Gelora Bung Karno, Senayan, Jakarta
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="apr">April</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Mud_poster__03.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/04_26_Mud.html" class="content">
+        	<h2>Mud</h2>
+        	26th - Matthew McConaughey, Reese Witherspoon
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/see girl run.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/04_26_SeeGirlRun.html" class="content">
+        	<h2>See Girl Run</h2>
+        	26th - Adam Scott
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+          <img class="thumb thumb-3" src="../Detail View/IMG/haley_web_banner.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/04_27_HaleyReinhart.html" class="content">
+       	<h2>Haley Reinhart Live In Jakarta</h2>
+        	27th - Atrium Gandaria City 
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="mei">Mei</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/iron-man-3-official-hd.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/05_03_IronMan3.html" class="content">
+        	<h2>Iron Man 3</h2>
+        	3rd - Robert Downey Jr., Gwyneth Paltrow
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/SIGUR-ROS-10-MAY-2013-ISTORA-SENAYAN-JKT.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/05_10_SigurRos.html" class="content">
+        	<h2>Sigur Ros Live In Jakarta</h2>
+        	10th - Tennis Indoor Senayan
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/FF_100.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/05_24_FastFurious6.html" class="content">
+       	<h2>Fast and Furious 6</h2>
+        	24th - Vin Diesel, Paul Walker, Dwayne Johnson
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="jun">Juni</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/monsters-university-ensemble-poster 1_edited-1.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/06_21_MonstersUniversity.html" class="content">
+        	<h2>Monsters University</h2>
+        	21st - John Goodman, Billy Crystal
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/world_war_z.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/06_21_WorldWarZ.html" class="content">
+        	<h2>World War Z</h2>
+        	21st - Brad Pitt
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+     <a href="#top">back to top</a>
+     
+   </li>
+</ul>
+
+<div class="list-view-header"><a name="jul">Juli</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/despicable-me-2-poster.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/07_03_DespicableMe2.html" class="content">
+        	<h2>Despicable Me 2</h2>
+        	3rd - Steve Carell, Kristen Wiig
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/steve-vai 100.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/07_22_SteveVai.html" class="content">
+        	<h2>Steve Vai Live In Concert</h2>
+        	22th - Tennis Indoor, Senayan, Jakarta
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/the-smurfs-2-poster.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/07_31_TheSmurfs2.html" class="content">
+       	<h2>The Smurfs 2</h2>
+        	31st - Neil Patrick Harris, Christina Ricci, Jayma Mays
+
+       	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="agu">Agustus</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Ashton-Kutcher-Jobs-movie-poster-teaser.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/08_18_Jobs.html" class="content">
+        	<h2>JOBS</h2>
+        	18st - Ashton Kutcher
+            <div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/red-jumpsuit.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/08_27_TheRedJumpsuitApparatus.html" class="content">
+        	<h2>The Red Jumpsuit Apparatus Live In Jakarta</h2>
+        	27th - Gedung Kesenian Jakarta, Pasar Baru, Jakarta
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Passion_Movie_Poster_Large.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/08_30_Passion.html" class="content">
+       	<h2>Passion</h2>
+        	30th - Rachel McAdams, Naomi Repace
+
+       	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="sep">September</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Konser Pitbull Di Indonesia 2013 100 x 100.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/09_01_Pitbull.html" class="content">
+        	<h2>Pitbull: Global Warming Tour</h2>
+        	1st - Skenoo Exibition, Gandaria City 3rd Floor, Jakarta 
+
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/SNSD_konser_Jakarta_14_September_2013 100x 100.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/09_14_GirlsGeneration.html" class="content">
+        	<h2>Girls' Generation: Girls and Peace World Tour</h2>
+        	14th - MEIS, Ancol, Jakarta
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/ip man.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/09_20_IPMan.html" class="content">
+       	<h2>IP Man: The Final Fight</h2>
+        	20th - Anthony Wong
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+          <img class="thumb thumb-3" src="../Detail View/IMG/the network.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/09_27_TheNetwork.html" class="content">
+       	<h2>The Network</h2>
+        	27th - Saad Mohseni
+
+       	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="okt">Oktober</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/gravity_2013_movie-1366x768.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/10_04_Gravity.html" class="content">
+        	<h2>Gravity</h2>
+        	4th - Sandra Bullock, George Clooney
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/Captain-Phillips-Movie-Poster2.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/10_11_Captain Phillips.html" class="content">
+        	<h2>Captain Phillips</h2>
+        	11st - Tom Hanks
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+     <a href="#top">back to top</a>
+     
+   </li>
+</ul>
+
+<div class="list-view-header"><a name="nov">November</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+    <li>
+        <div class="thumbs">
+            <img class="thumb thumb-3" src="../Detail View/IMG/hunger games1.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/11_22_CatchingFire.html" class="content">
+        	<h2>The Hunger Games: Catching Fire</h2>
+        	22nd - Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+   <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/frozen1.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/11_27_Frozen.html" class="content">
+        	<h2>Frozen</h2>
+        	27th - Kristen Bell, Idina Menzel, Jonathan Groff
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/aliciakeys.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/11_29_AliciaKeys.html" class="content">
+       	<h2>Blackberry Presents: Alicia Keys' Set The World On Fire Tour</h2>
+        	29th - Skenoo Exibition, Gandaria City 3rd Floor, Jakarta 
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+<div class="list-view-header"><a name="des">Desember</a></div>
+
+<ul class="list-view with-swipe left-thumbs right-one-icons">
+<li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/julioi.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/12_03_JulioIglesiasJamesIngram.html" class="content">
+        	<h2>Julio Iglesias &amp; James Ingram LIVE in Concert</h2>
+        	3rd - Assembly Hall Jakarta Convention Center Senayan, Jakarta
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+    <li>
+        <div class="thumbs">
+            <a href="#" class="thumb thumb-1"><img class="thumb" src="../common/images/icons/tile-phone.png" ></a>
+            <a href="#" class="thumb thumb-2"><img class="thumb" src="../common/images/icons/tile-email.png" ></a>
+            <img class="thumb thumb-3" src="../Detail View/IMG/hobbit.jpg">
+        </div><!-- .thumbs -->
+        <a href="../Detail View/12_13_TheHobbit.html" class="content">
+        	<h2>The Hobbit: The Desolation of Smaug</h2>
+        	13th - Martin Freeman, Ian McKellen, Richard Armitage
+
+        	<div class="list-view-icons">
+                <span class="icon-right-arrow">&nbsp;</span>
+            </div>
+        </a>
+    </li>
+     <li>
+       <a href="#top">back to top</a>
+      
+    </li>
+</ul>
+
+</div><!--#app-content-->
+</div><!--#app-wrapper-->
+
+</body>
 </html>
